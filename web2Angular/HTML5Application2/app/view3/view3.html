@@ -1,0 +1,21 @@
+<link rel="shortcut icon" href="">
+<div ng-app="myApp">
+    <div ng-controller="View3Department">
+         <div ng-repeat="department in departments">
+          Dept No:  {{department.no}},  
+          Dept Code:  {{department.code}},  
+          Dept Name:  {{department.name}}
+    </div>
+        <div>
+         Dept No:  {{department.no}},Dept Code: {{department.code}},Dept Name: {{department.name}}
+        
+    <div>     
+        Dept No:<input type="text" ng-model="department.no">{{department.no}}</div>
+
+    <div>     
+        Dept Code:<input type="text" ng-model="department.code">{{department.code}}</div>
+ <div>     
+        Dept Name:<input type="text" ng-model="department.name">{{department.name}}</div> 
+</div>
+  
+</div>

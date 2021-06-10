@@ -1,0 +1,25 @@
+<link rel="shortcut icon" href="">
+<div ng-app="myApp">
+    <div ng-controller="View1Task">
+         <li ng-repeat="task in tasks">
+            Name:  {{task.name}},Description: {{task.description}},Priority: {{task.priority}}, Due Date: {{task.duedate}}
+           
+    </li>
+   
+    <div>
+         Name:  {{name}},Description: {{description}},Priority: {{priority}}, Due Date: {{duedate}}
+        
+    <div>     
+        Name:<input type="text" ng-model="name">{{name}}</div>
+
+    <div>     
+        Description:<input type="text" ng-model="description">{{description}}</div>
+ <div>     
+        Priority:<input type="text" ng-model="priority">{{priority}}</div>
+    <div>     
+        Due Date:<input type="text" ng-model="duedate">{{duedate}}</div>
+</div>
+</div>
+</div>
+
+    
